@@ -4,37 +4,37 @@
     <mapcanvas>
         <units>degrees</units>
         <extent>
-            <xmin>388929.860795</xmin>
-            <ymin>5653166.203125</ymin>
-            <xmax>547382.139205</xmax>
-            <ymax>5776441.453125</ymax>
+            <xmin>412660.529149</xmin>
+            <ymin>5658203.923348</ymin>
+            <xmax>512408.139641</xmax>
+            <ymax>5735807.172375</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
             <spatialrefsys>
-                <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs </proj4>
-                <srsid>3344</srsid>
-                <srid>4326</srid>
-                <epsg>4326</epsg>
-                <description>WGS 84</description>
+                <proj4>+proj=longlat +ellps=WGS66 +no_defs </proj4>
+                <srsid>3495</srsid>
+                <srid>4760</srid>
+                <epsg>4760</epsg>
+                <description>WGS 66</description>
                 <projectionacronym>longlat</projectionacronym>
-                <ellipsoidacronym>WGS84</ellipsoidacronym>
+                <ellipsoidacronym>WGS66</ellipsoidacronym>
                 <geographicflag>true</geographicflag>
             </spatialrefsys>
         </destinationsrs>
     </mapcanvas>
     <legend>
-        <legendlayer open="true" checked="Qt::Checked" name="trunk_line" >
+        <legendlayer open="true" checked="Qt::Checked" name="cs_railroad1" >
             <filegroup open="false" hidden="true" >
                 <legendlayerfile isInOverview="0" layerid="trunk_line20091117061214704" visible="1" />
             </filegroup>
         </legendlayer>
-        <legendlayer open="true" checked="Qt::Checked" name="main_rail" >
+        <legendlayer open="true" checked="Qt::Checked" name="cs_railroad2" >
             <filegroup open="false" hidden="true" >
                 <legendlayerfile isInOverview="0" layerid="main_rail20091117052419439" visible="1" />
             </filegroup>
         </legendlayer>
-        <legendlayer open="true" checked="Qt::Checked" name="motorways" >
+        <legendlayer open="true" checked="Qt::Checked" name="cs_freeway" >
             <filegroup open="false" hidden="true" >
                 <legendlayerfile isInOverview="0" layerid="motorways20091117041421273" visible="1" />
             </filegroup>
@@ -49,10 +49,10 @@
         <Composition paperWidth="297" paperHeight="210" />
     </Composer>
     <projectlayers layercount="4" >
-        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0" >
+        <maplayer minimumScale="1" maximumScale="1e+08" minLabelScale="1" maxLabelScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0" >
             <id>main_rail20091117052419439</id>
             <datasource>/home/flight-sim/wales_scenery/gis_shape_files/main_rail</datasource>
-            <layername>main_rail</layername>
+            <layername>cs_railroad2</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs </proj4>
@@ -67,6 +67,9 @@
             </srs>
             <transparencyLevelInt>255</transparencyLevelInt>
             <provider encoding="System" >ogr</provider>
+            <edittypes>
+                <edittype type="0" name="class" />
+            </edittypes>
             <displayfield>class</displayfield>
             <label>0</label>
             <attributeactions/>
@@ -109,7 +112,7 @@
         <maplayer minimumScale="1" maximumScale="1e+08" minLabelScale="1" maxLabelScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0" >
             <id>motorways20091117041421273</id>
             <datasource>/home/flight-sim/wales_scenery/gis_shape_files/motorways</datasource>
-            <layername>motorways</layername>
+            <layername>cs_freeway</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs </proj4>
@@ -207,10 +210,10 @@
                 <mNoDataValue mValidNoDataValue="false" >-9999.000000</mNoDataValue>
             </rasterproperties>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0" >
+        <maplayer minimumScale="1" maximumScale="1e+08" minLabelScale="1" maxLabelScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0" >
             <id>trunk_line20091117061214704</id>
             <datasource>/home/flight-sim/wales_scenery/gis_shape_files/trunk_line</datasource>
-            <layername>trunk_line</layername>
+            <layername>cs_railroad1</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs </proj4>
@@ -225,6 +228,9 @@
             </srs>
             <transparencyLevelInt>255</transparencyLevelInt>
             <provider encoding="System" >ogr</provider>
+            <edittypes>
+                <edittype type="0" name="class" />
+            </edittypes>
             <displayfield>class</displayfield>
             <label>0</label>
             <attributeactions/>
@@ -267,7 +273,8 @@
     </projectlayers>
     <properties>
         <SpatialRefSys>
-            <ProjectCRSProj4String type="QString" >+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs</ProjectCRSProj4String>
+            <ProjectCRSProj4String type="QString" >+proj=longlat +ellps=WGS66 +no_defs</ProjectCRSProj4String>
+            <ProjectCRSID type="int" >3495</ProjectCRSID>
         </SpatialRefSys>
         <Gui>
             <SelectionColorBluePart type="int" >0</SelectionColorBluePart>
