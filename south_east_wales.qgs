@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>degrees</units>
         <extent>
-            <xmin>517596.940625</xmin>
-            <ymin>5715312.697776</ymin>
-            <xmax>524085.283666</xmax>
-            <ymax>5719864.307774</ymax>
+            <xmin>466188.747013</xmin>
+            <ymin>5707229.567140</ymin>
+            <xmax>469432.918534</xmax>
+            <ymax>5709505.372140</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
@@ -19,7 +19,7 @@
                 <description>WGS 66</description>
                 <projectionacronym>longlat</projectionacronym>
                 <ellipsoidacronym>WGS66</ellipsoidacronym>
-                <geographicflag>true</geographicflag>
+                <geographicflag>false</geographicflag>
             </spatialrefsys>
         </destinationsrs>
     </mapcanvas>
@@ -107,7 +107,7 @@
                     <description>WGS 84</description>
                     <projectionacronym>longlat</projectionacronym>
                     <ellipsoidacronym>WGS84</ellipsoidacronym>
-                    <geographicflag>false</geographicflag>
+                    <geographicflag>true</geographicflag>
                 </spatialrefsys>
             </srs>
             <transparencyLevelInt>82</transparencyLevelInt>
@@ -167,7 +167,7 @@
                     <description>WGS 84</description>
                     <projectionacronym>longlat</projectionacronym>
                     <ellipsoidacronym>WGS84</ellipsoidacronym>
-                    <geographicflag>false</geographicflag>
+                    <geographicflag>true</geographicflag>
                 </spatialrefsys>
             </srs>
             <transparencyLevelInt>72</transparencyLevelInt>
@@ -227,7 +227,7 @@
                     <description>WGS 84</description>
                     <projectionacronym>longlat</projectionacronym>
                     <ellipsoidacronym>WGS84</ellipsoidacronym>
-                    <geographicflag>false</geographicflag>
+                    <geographicflag>true</geographicflag>
                 </spatialrefsys>
             </srs>
             <transparencyLevelInt>114</transparencyLevelInt>
@@ -287,7 +287,7 @@
                     <description>WGS 84</description>
                     <projectionacronym>longlat</projectionacronym>
                     <ellipsoidacronym>WGS84</ellipsoidacronym>
-                    <geographicflag>false</geographicflag>
+                    <geographicflag>true</geographicflag>
                 </spatialrefsys>
             </srs>
             <transparencyLevelInt>91</transparencyLevelInt>
@@ -347,7 +347,7 @@
                     <description>WGS 84</description>
                     <projectionacronym>longlat</projectionacronym>
                     <ellipsoidacronym>WGS84</ellipsoidacronym>
-                    <geographicflag>false</geographicflag>
+                    <geographicflag>true</geographicflag>
                 </spatialrefsys>
             </srs>
             <transparencyLevelInt>52</transparencyLevelInt>
@@ -407,7 +407,7 @@
                     <description>WGS 84</description>
                     <projectionacronym>longlat</projectionacronym>
                     <ellipsoidacronym>WGS84</ellipsoidacronym>
-                    <geographicflag>false</geographicflag>
+                    <geographicflag>true</geographicflag>
                 </spatialrefsys>
             </srs>
             <transparencyLevelInt>121</transparencyLevelInt>
@@ -467,7 +467,7 @@
                     <description>WGS 84</description>
                     <projectionacronym>longlat</projectionacronym>
                     <ellipsoidacronym>WGS84</ellipsoidacronym>
-                    <geographicflag>true</geographicflag>
+                    <geographicflag>false</geographicflag>
                 </spatialrefsys>
             </srs>
             <transparencyLevelInt>255</transparencyLevelInt>
@@ -527,7 +527,7 @@
                     <description>WGS 84</description>
                     <projectionacronym>longlat</projectionacronym>
                     <ellipsoidacronym>WGS84</ellipsoidacronym>
-                    <geographicflag>true</geographicflag>
+                    <geographicflag>false</geographicflag>
                 </spatialrefsys>
             </srs>
             <transparencyLevelInt>184</transparencyLevelInt>
@@ -587,7 +587,7 @@
                     <description>WGS 84 / UTM zone 30N</description>
                     <projectionacronym>utm</projectionacronym>
                     <ellipsoidacronym>WGS84</ellipsoidacronym>
-                    <geographicflag>false</geographicflag>
+                    <geographicflag>true</geographicflag>
                 </spatialrefsys>
             </srs>
             <transparencyLevelInt>255</transparencyLevelInt>
@@ -628,7 +628,7 @@
                     <description>WGS 84</description>
                     <projectionacronym>longlat</projectionacronym>
                     <ellipsoidacronym>WGS84</ellipsoidacronym>
-                    <geographicflag>true</geographicflag>
+                    <geographicflag>false</geographicflag>
                 </spatialrefsys>
             </srs>
             <transparencyLevelInt>255</transparencyLevelInt>
@@ -685,7 +685,7 @@
                     <description>WGS 84</description>
                     <projectionacronym>longlat</projectionacronym>
                     <ellipsoidacronym>WGS84</ellipsoidacronym>
-                    <geographicflag>true</geographicflag>
+                    <geographicflag>false</geographicflag>
                 </spatialrefsys>
             </srs>
             <transparencyLevelInt>255</transparencyLevelInt>
@@ -745,7 +745,7 @@
                     <description>WGS 84</description>
                     <projectionacronym>longlat</projectionacronym>
                     <ellipsoidacronym>WGS84</ellipsoidacronym>
-                    <geographicflag>true</geographicflag>
+                    <geographicflag>false</geographicflag>
                 </spatialrefsys>
             </srs>
             <transparencyLevelInt>255</transparencyLevelInt>
@@ -805,7 +805,7 @@
                     <description>WGS 84</description>
                     <projectionacronym>longlat</projectionacronym>
                     <ellipsoidacronym>WGS84</ellipsoidacronym>
-                    <geographicflag>false</geographicflag>
+                    <geographicflag>true</geographicflag>
                 </spatialrefsys>
             </srs>
             <transparencyLevelInt>89</transparencyLevelInt>
@@ -876,7 +876,7 @@
                 <value>landcover20091117221723925</value>
                 <value>main_rail20091117052419439</value>
                 <value>motorways20091117041421273</value>
-                <value>rivers20091118040958657</value>
+                <value>rivers20091118063714273</value>
                 <value>roads20091117124400960</value>
                 <value>trunk_line20091117061214704</value>
                 <value>water20091117221759862</value>
