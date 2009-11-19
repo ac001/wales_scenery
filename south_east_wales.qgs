@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>degrees</units>
         <extent>
-            <xmin>457308.941978</xmin>
-            <ymin>5696459.005940</ymin>
-            <xmax>478119.564969</xmax>
-            <ymax>5711057.777780</ymax>
+            <xmin>517596.940625</xmin>
+            <ymin>5715312.697776</ymin>
+            <xmax>524085.283666</xmax>
+            <ymax>5719864.307774</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
@@ -547,7 +547,7 @@
                     <pointsize>2</pointsize>
                     <rotationclassificationfieldname></rotationclassificationfieldname>
                     <scaleclassificationfieldname></scaleclassificationfieldname>
-                    <outlinecolor red="148" blue="19" green="0" />
+                    <outlinecolor red="28" blue="148" green="12" />
                     <outlinestyle>SolidLine</outlinestyle>
                     <outlinewidth>0.5</outlinewidth>
                     <fillcolor red="0" blue="0" green="0" />
