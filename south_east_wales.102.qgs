@@ -1,0 +1,866 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="1.0.2-Kore" >
+    <title></title>
+    <mapcanvas>
+        <units>degrees</units>
+        <extent>
+            <xmin>452228.217532</xmin>
+            <ymin>5687790.221661</ymin>
+            <xmax>492965.341306</xmax>
+            <ymax>5720712.468629</ymax>
+        </extent>
+        <projections>0</projections>
+        <destinationsrs>
+            <spatialrefsys>
+                <proj4>+proj=longlat +ellps=WGS66 +no_defs </proj4>
+                <srsid>3495</srsid>
+                <srid>4760</srid>
+                <epsg>4760</epsg>
+                <description>WGS 66</description>
+                <projectionacronym>longlat</projectionacronym>
+                <ellipsoidacronym>WGS66</ellipsoidacronym>
+                <geographicflag>true</geographicflag>
+            </spatialrefsys>
+        </destinationsrs>
+    </mapcanvas>
+    <legend>
+        <legendlayer open="true" checked="Qt::Checked" name="motorways" >
+            <filegroup open="false" hidden="true" >
+                <legendlayerfile isInOverview="0" layerid="motorways20091121164326932" visible="1" />
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="true" checked="Qt::Checked" name="roads" >
+            <filegroup open="false" hidden="true" >
+                <legendlayerfile isInOverview="0" layerid="roads20091121164216780" visible="1" />
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="true" checked="Qt::Checked" name="trunk_line" >
+            <filegroup open="false" hidden="true" >
+                <legendlayerfile isInOverview="0" layerid="trunk_line20091121164144138" visible="1" />
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="true" checked="Qt::Checked" name="water" >
+            <filegroup open="false" hidden="true" >
+                <legendlayerfile isInOverview="0" layerid="water20091121164013773" visible="1" />
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="true" checked="Qt::Checked" name="cs_railroad2" >
+            <filegroup open="false" hidden="true" >
+                <legendlayerfile isInOverview="0" layerid="main_rail20091117052419439" visible="1" />
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="true" checked="Qt::Checked" name="Forrest" >
+            <filegroup open="false" hidden="true" >
+                <legendlayerfile isInOverview="0" layerid="landcover20091117221723925" visible="1" />
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="true" checked="Qt::Checked" name="industry" >
+            <filegroup open="false" hidden="true" >
+                <legendlayerfile isInOverview="0" layerid="industry20091117221742364" visible="1" />
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="true" checked="Qt::Checked" name="Grass" >
+            <filegroup open="false" hidden="true" >
+                <legendlayerfile isInOverview="0" layerid="ground20091117221832601" visible="1" />
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="true" checked="Qt::Checked" name="greenspace" >
+            <filegroup open="false" hidden="true" >
+                <legendlayerfile isInOverview="0" layerid="greenspace20091117221701057" visible="1" />
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="true" checked="Qt::Checked" name="golf" >
+            <filegroup open="false" hidden="true" >
+                <legendlayerfile isInOverview="0" layerid="golf20091117221713572" visible="1" />
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="true" checked="Qt::Checked" name="built_up" >
+            <filegroup open="false" hidden="true" >
+                <legendlayerfile isInOverview="0" layerid="built_up20091117221814584" visible="1" />
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="true" checked="Qt::Checked" name="p203r024_7dt20020911_z30_70" >
+            <filegroup open="false" hidden="true" >
+                <legendlayerfile isInOverview="0" layerid="p203r024_7dt20020911_z30_7020091117041256232" visible="1" />
+            </filegroup>
+        </legendlayer>
+    </legend>
+    <Composer>
+        <Composition paperWidth="297" paperHeight="210" />
+    </Composer>
+    <projectlayers layercount="12" >
+        <maplayer minimumScale="1" maximumScale="1e+08" minLabelScale="1" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0" >
+            <id>built_up20091117221814584</id>
+            <datasource>/home/flight-sim/wales_scenery/qgis_vector_files/built_up/built_up.shp</datasource>
+            <layername>built_up</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs </proj4>
+                    <srsid>3344</srsid>
+                    <srid>4326</srid>
+                    <epsg>4326</epsg>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>82</transparencyLevelInt>
+            <provider encoding="System" >ogr</provider>
+            <edittypes>
+                <edittype type="0" name="string" />
+            </edittypes>
+            <displayfield>string</displayfield>
+            <label>0</label>
+            <attributeactions/>
+            <singlesymbol>
+                <symbol>
+                    <lowervalue></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <outlinecolor red="0" blue="0" green="0" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="209" blue="213" green="147" />
+                    <fillpattern>SolidPattern</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+            </singlesymbol>
+            <labelattributes>
+                <label fieldname="" text="Label" />
+                <family fieldname="" name="Sans Serif" />
+                <size fieldname="" units="pt" value="12" />
+                <bold fieldname="" on="0" />
+                <italic fieldname="" on="0" />
+                <underline fieldname="" on="0" />
+                <color fieldname="" red="0" blue="0" green="0" />
+                <x fieldname="" />
+                <y fieldname="" />
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname="" />
+                <angle fieldname="" value="0" auto="0" />
+                <alignment fieldname="" value="center" />
+                <buffercolor fieldname="" red="255" blue="255" green="255" />
+                <buffersize fieldname="" units="pt" value="1" />
+                <bufferenabled fieldname="" on="" />
+                <multilineenabled fieldname="" on="" />
+            </labelattributes>
+        </maplayer>
+        <maplayer minimumScale="1" maximumScale="1e+08" minLabelScale="1" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0" >
+            <id>golf20091117221713572</id>
+            <datasource>/home/flight-sim/wales_scenery/qgis_vector_files/golf/golf.shp</datasource>
+            <layername>golf</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs </proj4>
+                    <srsid>3344</srsid>
+                    <srid>4326</srid>
+                    <epsg>4326</epsg>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>72</transparencyLevelInt>
+            <provider encoding="System" >ogr</provider>
+            <edittypes>
+                <edittype type="0" name="class" />
+            </edittypes>
+            <displayfield>class</displayfield>
+            <label>0</label>
+            <attributeactions/>
+            <singlesymbol>
+                <symbol>
+                    <lowervalue></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <outlinecolor red="0" blue="0" green="0" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="244" blue="26" green="244" />
+                    <fillpattern>SolidPattern</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+            </singlesymbol>
+            <labelattributes>
+                <label fieldname="" text="Label" />
+                <family fieldname="" name="Sans Serif" />
+                <size fieldname="" units="pt" value="12" />
+                <bold fieldname="" on="0" />
+                <italic fieldname="" on="0" />
+                <underline fieldname="" on="0" />
+                <color fieldname="" red="0" blue="0" green="0" />
+                <x fieldname="" />
+                <y fieldname="" />
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname="" />
+                <angle fieldname="" value="0" auto="0" />
+                <alignment fieldname="" value="center" />
+                <buffercolor fieldname="" red="255" blue="255" green="255" />
+                <buffersize fieldname="" units="pt" value="1" />
+                <bufferenabled fieldname="" on="" />
+                <multilineenabled fieldname="" on="" />
+            </labelattributes>
+        </maplayer>
+        <maplayer minimumScale="1" maximumScale="1e+08" minLabelScale="1" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0" >
+            <id>greenspace20091117221701057</id>
+            <datasource>/home/flight-sim/wales_scenery/qgis_vector_files/greenspace/greenspace.shp</datasource>
+            <layername>greenspace</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs </proj4>
+                    <srsid>3344</srsid>
+                    <srid>4326</srid>
+                    <epsg>4326</epsg>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>114</transparencyLevelInt>
+            <provider encoding="System" >ogr</provider>
+            <edittypes>
+                <edittype type="0" name="class" />
+            </edittypes>
+            <displayfield>class</displayfield>
+            <label>0</label>
+            <attributeactions/>
+            <singlesymbol>
+                <symbol>
+                    <lowervalue></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <outlinecolor red="0" blue="0" green="0" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="177" blue="83" green="203" />
+                    <fillpattern>SolidPattern</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+            </singlesymbol>
+            <labelattributes>
+                <label fieldname="" text="Label" />
+                <family fieldname="" name="Sans Serif" />
+                <size fieldname="" units="pt" value="12" />
+                <bold fieldname="" on="0" />
+                <italic fieldname="" on="0" />
+                <underline fieldname="" on="0" />
+                <color fieldname="" red="0" blue="0" green="0" />
+                <x fieldname="" />
+                <y fieldname="" />
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname="" />
+                <angle fieldname="" value="0" auto="0" />
+                <alignment fieldname="" value="center" />
+                <buffercolor fieldname="" red="255" blue="255" green="255" />
+                <buffersize fieldname="" units="pt" value="1" />
+                <bufferenabled fieldname="" on="" />
+                <multilineenabled fieldname="" on="" />
+            </labelattributes>
+        </maplayer>
+        <maplayer minimumScale="1" maximumScale="1e+08" minLabelScale="1" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0" >
+            <id>ground20091117221832601</id>
+            <datasource>/home/flight-sim/wales_scenery/qgis_vector_files/ground/ground.shp</datasource>
+            <layername>Grass</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs </proj4>
+                    <srsid>3344</srsid>
+                    <srid>4326</srid>
+                    <epsg>4326</epsg>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>91</transparencyLevelInt>
+            <provider encoding="System" >ogr</provider>
+            <edittypes>
+                <edittype type="0" name="class" />
+            </edittypes>
+            <displayfield>class</displayfield>
+            <label>0</label>
+            <attributeactions/>
+            <singlesymbol>
+                <symbol>
+                    <lowervalue></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <outlinecolor red="0" blue="0" green="0" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="95" blue="79" green="138" />
+                    <fillpattern>SolidPattern</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+            </singlesymbol>
+            <labelattributes>
+                <label fieldname="" text="Label" />
+                <family fieldname="" name="Sans Serif" />
+                <size fieldname="" units="pt" value="12" />
+                <bold fieldname="" on="0" />
+                <italic fieldname="" on="0" />
+                <underline fieldname="" on="0" />
+                <color fieldname="" red="0" blue="0" green="0" />
+                <x fieldname="" />
+                <y fieldname="" />
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname="" />
+                <angle fieldname="" value="0" auto="0" />
+                <alignment fieldname="" value="center" />
+                <buffercolor fieldname="" red="255" blue="255" green="255" />
+                <buffersize fieldname="" units="pt" value="1" />
+                <bufferenabled fieldname="" on="" />
+                <multilineenabled fieldname="" on="" />
+            </labelattributes>
+        </maplayer>
+        <maplayer minimumScale="1" maximumScale="1e+08" minLabelScale="1" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0" >
+            <id>industry20091117221742364</id>
+            <datasource>/home/flight-sim/wales_scenery/qgis_vector_files/industry/industry.shp</datasource>
+            <layername>industry</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs </proj4>
+                    <srsid>3344</srsid>
+                    <srid>4326</srid>
+                    <epsg>4326</epsg>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>52</transparencyLevelInt>
+            <provider encoding="System" >ogr</provider>
+            <edittypes>
+                <edittype type="0" name="class" />
+            </edittypes>
+            <displayfield>class</displayfield>
+            <label>0</label>
+            <attributeactions/>
+            <singlesymbol>
+                <symbol>
+                    <lowervalue></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <outlinecolor red="0" blue="0" green="0" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="255" blue="22" green="22" />
+                    <fillpattern>SolidPattern</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+            </singlesymbol>
+            <labelattributes>
+                <label fieldname="" text="Label" />
+                <family fieldname="" name="Sans Serif" />
+                <size fieldname="" units="pt" value="12" />
+                <bold fieldname="" on="0" />
+                <italic fieldname="" on="0" />
+                <underline fieldname="" on="0" />
+                <color fieldname="" red="0" blue="0" green="0" />
+                <x fieldname="" />
+                <y fieldname="" />
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname="" />
+                <angle fieldname="" value="0" auto="0" />
+                <alignment fieldname="" value="center" />
+                <buffercolor fieldname="" red="255" blue="255" green="255" />
+                <buffersize fieldname="" units="pt" value="1" />
+                <bufferenabled fieldname="" on="" />
+                <multilineenabled fieldname="" on="" />
+            </labelattributes>
+        </maplayer>
+        <maplayer minimumScale="1" maximumScale="1e+08" minLabelScale="1" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0" >
+            <id>landcover20091117221723925</id>
+            <datasource>/home/flight-sim/wales_scenery/qgis_vector_files/landcover/landcover.shp</datasource>
+            <layername>Forrest</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs </proj4>
+                    <srsid>3344</srsid>
+                    <srid>4326</srid>
+                    <epsg>4326</epsg>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>121</transparencyLevelInt>
+            <provider encoding="System" >ogr</provider>
+            <edittypes>
+                <edittype type="0" name="class" />
+            </edittypes>
+            <displayfield>class</displayfield>
+            <label>0</label>
+            <attributeactions/>
+            <singlesymbol>
+                <symbol>
+                    <lowervalue></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <outlinecolor red="0" blue="0" green="0" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="0" blue="0" green="85" />
+                    <fillpattern>SolidPattern</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+            </singlesymbol>
+            <labelattributes>
+                <label fieldname="" text="Label" />
+                <family fieldname="" name="Sans Serif" />
+                <size fieldname="" units="pt" value="12" />
+                <bold fieldname="" on="0" />
+                <italic fieldname="" on="0" />
+                <underline fieldname="" on="0" />
+                <color fieldname="" red="0" blue="0" green="0" />
+                <x fieldname="" />
+                <y fieldname="" />
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname="" />
+                <angle fieldname="" value="0" auto="0" />
+                <alignment fieldname="" value="center" />
+                <buffercolor fieldname="" red="255" blue="255" green="255" />
+                <buffersize fieldname="" units="pt" value="1" />
+                <bufferenabled fieldname="" on="" />
+                <multilineenabled fieldname="" on="" />
+            </labelattributes>
+        </maplayer>
+        <maplayer minimumScale="1" maximumScale="1e+08" minLabelScale="1" maxLabelScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0" >
+            <id>main_rail20091117052419439</id>
+            <datasource>/home/flight-sim/wales_scenery/qgis_vector_files/main_rail/main_rail.shp</datasource>
+            <layername>cs_railroad2</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs </proj4>
+                    <srsid>3344</srsid>
+                    <srid>4326</srid>
+                    <epsg>4326</epsg>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="System" >ogr</provider>
+            <edittypes>
+                <edittype type="0" name="class" />
+            </edittypes>
+            <displayfield>class</displayfield>
+            <label>0</label>
+            <attributeactions/>
+            <singlesymbol>
+                <symbol>
+                    <lowervalue></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <outlinecolor red="84" blue="52" green="189" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="0" blue="0" green="0" />
+                    <fillpattern>NoBrush</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+            </singlesymbol>
+            <labelattributes>
+                <label fieldname="" text="Label" />
+                <family fieldname="" name="Sans Serif" />
+                <size fieldname="" units="pt" value="12" />
+                <bold fieldname="" on="0" />
+                <italic fieldname="" on="0" />
+                <underline fieldname="" on="0" />
+                <color fieldname="" red="0" blue="0" green="0" />
+                <x fieldname="" />
+                <y fieldname="" />
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname="" />
+                <angle fieldname="" value="0" auto="0" />
+                <alignment fieldname="" value="center" />
+                <buffercolor fieldname="" red="255" blue="255" green="255" />
+                <buffersize fieldname="" units="pt" value="1" />
+                <bufferenabled fieldname="" on="" />
+                <multilineenabled fieldname="" on="" />
+            </labelattributes>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0" >
+            <id>motorways20091121164326932</id>
+            <datasource>/home/flight-sim/wales_scenery/qgis_vector_files/motorways/motorways.shp</datasource>
+            <layername>motorways</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs </proj4>
+                    <srsid>3344</srsid>
+                    <srid>4326</srid>
+                    <epsg>4326</epsg>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="System" >ogr</provider>
+            <displayfield>class</displayfield>
+            <label>0</label>
+            <attributeactions/>
+            <singlesymbol>
+                <symbol>
+                    <lowervalue></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <outlinecolor red="121" blue="241" green="152" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="0" blue="0" green="0" />
+                    <fillpattern>NoBrush</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+            </singlesymbol>
+            <labelattributes>
+                <label fieldname="" text="Label" />
+                <family fieldname="" name="Sans Serif" />
+                <size fieldname="" units="pt" value="12" />
+                <bold fieldname="" on="0" />
+                <italic fieldname="" on="0" />
+                <underline fieldname="" on="0" />
+                <color fieldname="" red="0" blue="0" green="0" />
+                <x fieldname="" />
+                <y fieldname="" />
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname="" />
+                <angle fieldname="" value="0" auto="0" />
+                <alignment fieldname="" value="center" />
+                <buffercolor fieldname="" red="255" blue="255" green="255" />
+                <buffersize fieldname="" units="pt" value="1" />
+                <bufferenabled fieldname="" on="" />
+                <multilineenabled fieldname="" on="" />
+            </labelattributes>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0" >
+            <id>p203r024_7dt20020911_z30_7020091117041256232</id>
+            <datasource>/home/flight-sim/wales_scenery/lansat_images/p203r024_7dt20020911_z30_70.tif</datasource>
+            <layername>p203r024_7dt20020911_z30_70</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=30 +ellps=WGS84 +datum=WGS84 +units=m +no_defs </proj4>
+                    <srsid>3007</srsid>
+                    <srid>32630</srid>
+                    <epsg>32630</epsg>
+                    <description>WGS 84 / UTM zone 30N</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider></provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false" />
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false" />
+                <mRGBMinimumMaximumEstimated boolean="true" />
+                <mUserDefinedGrayMinimumMaximum boolean="false" />
+                <mGrayMinimumMaximumEstimated boolean="true" />
+                <mContrastEnhancementAlgorithm>NoEnhancement</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>0</min>
+                        <max>255</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="false" >-9999.000000</mNoDataValue>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="1" maximumScale="1e+08" minLabelScale="1" maxLabelScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0" >
+            <id>roads20091121164216780</id>
+            <datasource>/home/flight-sim/wales_scenery/qgis_vector_files/roads/roads.shp</datasource>
+            <layername>roads</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs </proj4>
+                    <srsid>3344</srsid>
+                    <srid>4326</srid>
+                    <epsg>4326</epsg>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="System" >ogr</provider>
+            <edittypes>
+                <edittype type="0" name="class" />
+            </edittypes>
+            <displayfield>class</displayfield>
+            <label>0</label>
+            <attributeactions/>
+            <singlesymbol>
+                <symbol>
+                    <lowervalue></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <outlinecolor red="161" blue="39" green="90" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="199" blue="45" green="122" />
+                    <fillpattern>NoBrush</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+            </singlesymbol>
+            <labelattributes>
+                <label fieldname="" text="Label" />
+                <family fieldname="" name="Sans Serif" />
+                <size fieldname="" units="pt" value="12" />
+                <bold fieldname="" on="0" />
+                <italic fieldname="" on="0" />
+                <underline fieldname="" on="0" />
+                <color fieldname="" red="0" blue="0" green="0" />
+                <x fieldname="" />
+                <y fieldname="" />
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname="" />
+                <angle fieldname="" value="0" auto="0" />
+                <alignment fieldname="" value="center" />
+                <buffercolor fieldname="" red="255" blue="255" green="255" />
+                <buffersize fieldname="" units="pt" value="1" />
+                <bufferenabled fieldname="" on="" />
+                <multilineenabled fieldname="" on="" />
+            </labelattributes>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0" >
+            <id>trunk_line20091121164144138</id>
+            <datasource>/home/flight-sim/wales_scenery/qgis_vector_files/trunk_line/trunk_line.shp</datasource>
+            <layername>trunk_line</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs </proj4>
+                    <srsid>3344</srsid>
+                    <srid>4326</srid>
+                    <epsg>4326</epsg>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="System" >ogr</provider>
+            <displayfield>class</displayfield>
+            <label>0</label>
+            <attributeactions/>
+            <singlesymbol>
+                <symbol>
+                    <lowervalue></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <outlinecolor red="236" blue="212" green="223" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="0" blue="0" green="0" />
+                    <fillpattern>NoBrush</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+            </singlesymbol>
+            <labelattributes>
+                <label fieldname="" text="Label" />
+                <family fieldname="" name="Sans Serif" />
+                <size fieldname="" units="pt" value="12" />
+                <bold fieldname="" on="0" />
+                <italic fieldname="" on="0" />
+                <underline fieldname="" on="0" />
+                <color fieldname="" red="0" blue="0" green="0" />
+                <x fieldname="" />
+                <y fieldname="" />
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname="" />
+                <angle fieldname="" value="0" auto="0" />
+                <alignment fieldname="" value="center" />
+                <buffercolor fieldname="" red="255" blue="255" green="255" />
+                <buffersize fieldname="" units="pt" value="1" />
+                <bufferenabled fieldname="" on="" />
+                <multilineenabled fieldname="" on="" />
+            </labelattributes>
+        </maplayer>
+        <maplayer minimumScale="1" maximumScale="1e+08" minLabelScale="1" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0" >
+            <id>water20091121164013773</id>
+            <datasource>/home/flight-sim/wales_scenery/qgis_vector_files/water/water.shp</datasource>
+            <layername>water</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs </proj4>
+                    <srsid>3344</srsid>
+                    <srid>4326</srid>
+                    <epsg>4326</epsg>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>79</transparencyLevelInt>
+            <provider encoding="System" >ogr</provider>
+            <edittypes>
+                <edittype type="0" name="class" />
+            </edittypes>
+            <displayfield>class</displayfield>
+            <label>0</label>
+            <attributeactions/>
+            <singlesymbol>
+                <symbol>
+                    <lowervalue></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <outlinecolor red="0" blue="0" green="0" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="98" blue="227" green="165" />
+                    <fillpattern>SolidPattern</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+            </singlesymbol>
+            <labelattributes>
+                <label fieldname="" text="Label" />
+                <family fieldname="" name="Sans Serif" />
+                <size fieldname="" units="pt" value="12" />
+                <bold fieldname="" on="0" />
+                <italic fieldname="" on="0" />
+                <underline fieldname="" on="0" />
+                <color fieldname="" red="0" blue="0" green="0" />
+                <x fieldname="" />
+                <y fieldname="" />
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname="" />
+                <angle fieldname="" value="0" auto="0" />
+                <alignment fieldname="" value="center" />
+                <buffercolor fieldname="" red="255" blue="255" green="255" />
+                <buffersize fieldname="" units="pt" value="1" />
+                <bufferenabled fieldname="" on="" />
+                <multilineenabled fieldname="" on="" />
+            </labelattributes>
+        </maplayer>
+    </projectlayers>
+    <properties>
+        <SpatialRefSys>
+            <ProjectCRSProj4String type="QString" >+proj=longlat +ellps=WGS66 +no_defs</ProjectCRSProj4String>
+            <ProjectCRSID type="int" >3495</ProjectCRSID>
+        </SpatialRefSys>
+        <Gui>
+            <SelectionColorBluePart type="int" >0</SelectionColorBluePart>
+            <CanvasColorGreenPart type="int" >255</CanvasColorGreenPart>
+            <CanvasColorRedPart type="int" >255</CanvasColorRedPart>
+            <SelectionColorRedPart type="int" >255</SelectionColorRedPart>
+            <SelectionColorGreenPart type="int" >255</SelectionColorGreenPart>
+            <CanvasColorBluePart type="int" >255</CanvasColorBluePart>
+        </Gui>
+        <Digitizing>
+            <LayerSnappingList type="QStringList" >
+                <value>built_up20091117221814584</value>
+                <value>golf20091117221713572</value>
+                <value>greenspace20091117221701057</value>
+                <value>ground20091117221832601</value>
+                <value>industry20091117221742364</value>
+                <value>landcover20091117221723925</value>
+                <value>main_rail20091117052419439</value>
+                <value>motorways20091117041421273</value>
+                <value>rivers20091118063714273</value>
+                <value>roads20091117124400960</value>
+                <value>trunk_line20091117061214704</value>
+                <value>water20091117221759862</value>
+            </LayerSnappingList>
+            <LayerSnappingEnabledList type="QStringList" >
+                <value>enabled</value>
+                <value>enabled</value>
+                <value>enabled</value>
+                <value>enabled</value>
+                <value>enabled</value>
+                <value>enabled</value>
+                <value>enabled</value>
+                <value>enabled</value>
+                <value>enabled</value>
+                <value>enabled</value>
+                <value>enabled</value>
+                <value>enabled</value>
+            </LayerSnappingEnabledList>
+            <LayerSnapToList type="QStringList" >
+                <value>to_vertex</value>
+                <value>to_vertex</value>
+                <value>to_vertex</value>
+                <value>to_vertex</value>
+                <value>to_vertex</value>
+                <value>to_vertex</value>
+                <value>to_vertex</value>
+                <value>to_vertex</value>
+                <value>to_vertex</value>
+                <value>to_vertex</value>
+                <value>to_vertex</value>
+                <value>to_vertex</value>
+            </LayerSnapToList>
+            <AvoidPolygonIntersections type="int" >0</AvoidPolygonIntersections>
+            <TopologicalEditing type="int" >0</TopologicalEditing>
+            <LayerSnappingToleranceList type="QStringList" >
+                <value>40.000000</value>
+                <value>40.000000</value>
+                <value>40.000000</value>
+                <value>40.000000</value>
+                <value>40.000000</value>
+                <value>40.000000</value>
+                <value>40.000000</value>
+                <value>40.000000</value>
+                <value>40.000000</value>
+                <value>40.000000</value>
+                <value>40.000000</value>
+                <value>40.000000</value>
+            </LayerSnappingToleranceList>
+        </Digitizing>
+        <PositionPrecision>
+            <DecimalPlaces type="int" >2</DecimalPlaces>
+            <Automatic type="bool" >true</Automatic>
+        </PositionPrecision>
+    </properties>
+</qgis>
